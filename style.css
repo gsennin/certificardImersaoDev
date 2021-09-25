@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+h1,
+h3,
+h2,
+ul,
+a {
+  color: #363636;
+  line-height: 5px;
+}
+
+body {
+  background: linear-gradient(230.65deg, #2e2e2e 27.49%, #000000 83.19%);
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  background: #4169e1;
+  color: #1c1c1c;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  padding: 64px;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weigth: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weigth: 100;
+  font-size: 24px;
+}
+
+.Projetos {
+  display: flex;
+  flex-direction: colunn;
+  padding: 32px;
+  line-height: 10px;
+}
+
+.projeto-titulo {
+  line-height: 10px;
+}
